@@ -5,4 +5,4 @@
 //here i created the name of the website and style it
 $('h1').text('RanBOU').css('color','darkcyan').css('font-size','40px')
 //i want the search to be clickable
-$('.click').css('text-align','right').css('color','red').css("font-size","20px")
+$('.click').css('margin','800px').css('color','red').css("font-size","20px").css('margin-top','-100px')
