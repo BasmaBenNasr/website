@@ -1,8 +1,11 @@
 
-
-//$('img').attr('src',"https://images.pexels.com/photos/4171757/pexels-photo-4171757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940").css('width','80%')
-
 //here i created the name of the website and style it
-$('h1').text('RanBOU').css('color','darkcyan').css('font-size','40px')
+//$('h1').text('RanBOU').css('color','white').css('font-size','40px').css('margin-top','-1000px').css('font-family','Pacificos')
+
 //i want the search to be clickable
-$('.click').css('margin','800px').css('color','red').css("font-size","20px").css('margin-top','-100px')
+
+//$("button").click(function(){
+  //  $("").attr("href", "");
+ // });
+
+
