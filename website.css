@@ -6,14 +6,16 @@ body{
 header{
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+  
+
 }
+
+
 #top1{
   text-align: center;
-  background-color: beige;
+
   font-family: sans-serif;
-  border: solid;
-  border-color: black;
+  color: #FF3347;
 }
 
 .title {
