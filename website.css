@@ -1,37 +1,251 @@
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url("https://m.buro247.me/images/Milan-SS18-street-style-article.jpg");
-  background-repeat:no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%
-
+body{
+  margin: 0px;
+  padding: 0px;
 }
 
-.topnav {
-  background-color: #333;
+header{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
 }
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
+#top1{
   text-align: center;
-  padding: 14px 16px;
+  background-color: beige;
+  font-family: sans-serif;
+  border: solid;
+  border-color: black;
+}
+
+.title {
+  height: 100px;
+  background-color: #2c3e50;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.logo_header {
+  width: 140px;
+  height: 85px;
+  float: left;
+  margin-left: 30px;
+}
+
+.navbar {
+  background-color: #f4f6f7;
+  margin-top: 0px;
+  padding-left: 300px;
+  display: inline-block;
+  width: 100%
+  height:50px;
+}
+
+.navbar ul{
+  display: inline;
+  justify-content: center;
+}
+
+.navbar ul li {
+
+  float: left;
+  display: inline;
+  list-style-type: none;
+  background-color: #f4f6f7;
+  height: 60px;
+  width: 150px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0px;
+}
+
+
+.navbar ul li:hover {
+  background-color: #979a9a;
+}
+
+.navbar ul li a {
   text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
+  text-align: center;
+  font-size: 18px;
   color: black;
+  font-family: Georgia, serif;
+  display: block;
 }
 
-.topnav a.clo {
-  background-color: #4CAF50;
+input[type="text"]{
+  float: right;
+  border: none;
+  border-radius: 30px
+  padding : 10px;
+  margin: 30px;
+  width:220px;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #ff0000;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.myslides {
+  display: none;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+.fade {
+  -webkit-animation-name:fade;
+   -webkit-animation-duration: .8s;
+   animation-name: fade;
+   animation-duration: .8s
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+  }
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1;}
+}
+
+footer {
+  bottom: 0px;
+  height: 250px;
+  background-color: #2c3e50;
+  color: white;
+  font-family: Verdana, sans-serif;
+  padding-top: 15px;
+  padding-left: 20px;
+
+}
+
+.table-footer {
+  height: 100px;
+  color: white;
+  float: right;
+  width: 80%;
+}
+
+.table-footer th {
+  font-size: 25px;
+  text-align: left;
+  text-shadow: 2px 2px black;
+}
+
+.table-footer td {
+  padding: 10px;
+  text-align: left;
+}
+
+.logo-footer {
+  float: left;
+  padding-top: 15px;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+}
+
+.sub-footer {
+  height: 200px;
+}
+
+td a {
+  text-decoration: none;
   color: white;
 }
 
-.nav  {
-  padding-bottom: 14px 16px;
+td a:hover {
+  text-decoration: underline;
+}
+
+table tr .product {
+  width: 20%;
+}
+
+.table_2 {
+  color: black;
+  width: 85%;
+  margin: 50px;
+  padding: 0px;
+  font-family: sans-serif;
+  height: 300px;
+}
+
+.table_2 th {
+  padding-left: 20px;
+  padding-right: 10px;
+  text-align: left;
+  font-size: 25px;
+  text-shadow: 2px 2px #d5d8dc;
+}
+
+.ul_2 {
+  list-style-type: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: block;
+  height: 450px;
+}
+
+.ul_2 li {
+  cursor: pointer;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+}
+
+.photo {
+  width: 240px;
+  height: 200px;
+  float: left;
+  margin: 30px;
+  cursor: pointer;;
+  border-radius: 20px;
+}
+
+
+
+
+.images_clothes ,
+.images_bags ,
+.images_makeup {
+  height: 400px;
+  width: 100%;
 }
